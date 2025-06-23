@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/st,small,507x507-pad,600x600,f8f8f8.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elham | Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body class="bg-[#0E122D]">
+
+
+    <nav class="bg-white opacity-[0.888888] mb-10 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="https://flowbite.com/" class="flex items-center w-[20%] space-x-1 rtl:space-x-reverse">
+            <img src="images/logo-transparent-png.png" class="h-10 w-[100%]" alt="Elham logo">
+            
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <a href="https://drive.google.com/file/d/1jivTvz_7tCLAXZWDjY4sV19F6877gmbx/view?usp=sharing"><button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Get Resume</button></a>
+            
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+           
+            <li>
+              <a href="#home" class="nav-link block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="#experience" class="nav-link block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Experience</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-purple-700 md:p-0 md:dark:hover:text-purple-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+<section id="home" class="h-[100vh]">
+  <div  class="home flex flex-wrap xl:flex-nowrap justify-between text-white mt-16 p-10 h-[100vh]">
+    <div class="mt-16 p-10 text-4xl">
+      <h1 class="font-bold text-7xl my-4">Hi,</h1>
+      <h1 class="font-bold text-6xl my-4">I'm <span class="text-purple-600">Elham Mohsen</span></h1>
+      <h1 class="font-bold text-6xl my-4">FrontEnd Developer</h1>
+      <a href="#contact"><button class="text-white bg-purple-700  hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-xl my-4 px-6 py-3 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Contact Me</button></a>
+      
+    </div>
+    <div class="w-full xl:w-1/2 my-10">
+      <img class="w-full h-[75%]" src="images/freepik__adjust__66721.png" alt="">
+    </div>
+   </div>
+</section>
+ 
+<section id="about">
+<div  class="about mt-[500px] xl:mt-2 text-white p-10">
+  <h2 class="text-4xl font-bold py-5">Overview:</h2>
+  <p class="text-2xl">Motivated junior front-end developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React.js and Next.js. Skilled in building responsive, user-friendly web applications and experienced in version control with Git. Eager to contribute to innovative projects, grow in a collaborative environment, and continue enhancing technical and soft skills through real-world experience.</p>
+  <div class="w-[75%] mx-auto flex flex-wrap  justify-around p-10 my-7 rounded-lg">
+    <img class="px-3" src="images/html.jpg" alt="">
+    <img class="px-3" src="images/css.jpg" alt="">
+    <img class="px-3" src="images/bootstrap.jpg" alt="">
+    <img class="px-3" src="images/js.jpg" alt="">
+    <img class="px-3" src="images/react.jpg" alt="">
+  </div>
+</div>
+</section>
+
+
+
+
+<section id="experience" class="experience my-10">
+  <p class="text-white text-center mx-auto">What I have been professional at so far</p>
+  <h2 class="text-white font-bold text-4xl text-center pb-10 mb-10 ">Experiences.</h2>
+ <div class="flex">
+   <div class="relative w-full xl:w-1/2">
+    <div class="w-20 h-20  absolute top-5 mb-10 xl:-right-9 text-3xl border-4 bg-[#0E122D]  border-white rounded-full"></div>
+    <div class="view relative ml-10 border-l-4 xl:border-l-0  xl:border-r-4 -z-10  h-[900px]">
+      <div class="blockk absolute top-9 ml-12 mx-10 xl:right-16 bg-transparent shadow-md shadow-slate-300 w-[90%] xl:w-2/3 p-3 rounded-md border-b-4 border-b-white xl:mx-auto ">
+        <h3 class="text-3xl text-gray-500 font-bold">Frontend Developer</h3>
+        <ul class="list-disc list-inside space-y-1 p-5 text-white">
+             <li>Exquisite in HTML, CSS, and JavaScript</li>
+        <li>Have a Knowledge of responsive design and cross-browser compatibility</li>
+        <li>Understanding of Git for version control</li>
+        <li>Have an experience with API integration and async JavaScript</li>
+        <li>Understanding SEO principles</li>
+        <li>Understanding Progressive Web Apps and their development</li>
+        </ul>
+        <div class="w-0 h-0 border-t-[10px] border border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-[bcb7b7] xl:border-r-transparent border-l-[10px] border-l-transparent xl:border-l-[#bcb7b7] absolute top-5 -left-5  xl:left-[480px]"></div>
+      </div>
+       
+      <!-- <div class=""> -->
+        <div class="w-20 h-20  absolute top-[500px] mb-10 -left-11 xl:left-[680px] text-3xl border-4 bg-[#0E122D]  border-white rounded-full"></div>
+         <div class="blockk absolute top-[520px] ml-12 mx-10 xl:-right-[540px] bg-transparent shadow-md shadow-slate-300 w-[90%]  xl:w-2/3 p-3 rounded-md border-b-4 border-b-white xl:mx-auto ">
+        <h3 class="text-3xl text-gray-500 font-bold">React.js Developer</h3>
+        <ul class="list-disc list-inside space-y-1 p-5 text-white">
+             <li>Building and sustaining web-based software using React.js and associated technologies.</li>
+        <li>Executing responsive layouts and guaranteeing interoperability across various browsers.</li>
+        <li>Taking part in code assessments and offering constructive criticism to other developers.</li>
+       
+        </ul>
+        <div class="triangle-left absolute top-5 -left-5"></div>
+      </div>
+      <!-- </div> -->
+
+    </div>
+  </div>
+
+
+       
+    </div>
+  </div>
+ </div>
+</section>
+
+
+
+<section id="projects" class="projects">
+  <div>
+      <h2 class="text-white font-bold text-5xl text-center p-10 m-10 ">Projects.</h2>
+      <p class="text-white text-2xl w-[85%] mx-auto">Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively</p>
+  </div>
+
+  <div class="container mx-auto my-10 p-4 flex flex-wrap gap-4 ">
+<div class="flex flex-wrap gap-5 mx-auto justify-center">
+  <div class="order-1 w-full md:w-[48%] lg:w-[30%] bg-slate-800 text-white border border-gray-600 shadow-md shadow-slate-300 hover:shadow-lg rounded-lg hover:shadow-slate-300 transition duration-700 dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://elhammohsen.github.io/my-Ecommerce/">
+        <img class="rounded-t-lg mb-3" src="images/fresh cart.png" alt="" />
+    </a>
+    <div class="p-5">
+      <div class="flex justify-between">
+        <a href="https://elhammohsen.github.io/my-Ecommerce/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-gray-900">Fresh Cart</h5>
+        </a>
+        <a href="https://github.com/elhammohsen/my-Ecommerce" class="">
+            <i class="fa-brands fa-github mx-3 text-3xl rounded-full hover:text-gray-400 hover:cursor-pointer"></i>
+             
+        </a>
+      </div>
+        
+        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">Our e-commerce store web app provides you with a seamless and convenient online shopping experience. With a wide range of products and categories to choose from, you can easily browse, compare, and purchase items from the comfort of your own home.</p>
+        
+    </div>
+
+    <div class="flex justify-around  p-5">
+      <span class="text-sky-500">#React</span>
+      <span class="text-blue-700">#Api</span>
+      <span class="text-emerald-500">#TW</span>
+    </div>
+</div>
+<div class="order-3 w-full md:w-[48%] lg:w-[30%] bg-slate-800 text-white border border-gray-500 shadow-md shadow-slate-300 hover:shadow-lg rounded-lg hover:shadow-slate-300 transition duration-700 dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://elhammohsen.github.io/CRUD-system-App/">
+        <img class="rounded-t-lg mb-3" src="images/CRUD-system-App.png" alt="" />
+    </a>
+    <div class="p-5">
+      <div class="flex flex-wrap  justify-between">
+        <a href="https://elhammohsen.github.io/CRUD-system-App/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-gray-900">CRUD system App</h5>
+        </a>
+        <a href="https://github.com/elhammohsen/CRUD-system-App" class="">
+            <i class="fa-brands fa-github mx-3 text-3xl rounded-full hover:text-gray-400 hover:cursor-pointer"></i>
+             
+        </a>
+      </div>
+        
+        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">Our CRUD system web app makes it easy to manage and search data. You can create, view, update, delete, and find records through a simple and user-friendly interface. It’s perfect for keeping your data organized and easy to access.</p>
+        
+    </div>
+
+    <div class="flex justify-around  p-5">
+      <span class="text-amber-500">#JS</span>
+      
+      <span class="text-indigo-500">#BS</span>
+    </div>
+</div>
+<div class="order-2 w-full md:w-[48%] lg:w-[30%] bg-slate-800 text-white border border-gray-500 shadow-md shadow-slate-300 hover:shadow-lg rounded-lg hover:shadow-slate-300 transition duration-700 dark:bg-gray-800 dark:border-gray-700">
+    <a href=" https://elhammohsen.github.io/yummy/">
+        <img class="rounded-t-lg mb-3 p-2" src="images/Yummy.png" alt="" />
+    </a>
+    <div class="p-5">
+      <div class="flex justify-between">
+        <a href="https://elhammohsen.github.io/yummy/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-gray-900">yummy food</h5>
+        </a>
+        <a href="https://github.com/elhammohsen/yummy" class="">
+            <i class="fa-brands fa-github mx-3 text-3xl rounded-full hover:text-gray-400 hover:cursor-pointer"></i>
+             
+        </a>
+      </div>
+        
+        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">A food website with API allows users to search, browse, and access recipes and food-related information efficiently and conveniently The API enables easy integration of third-party services, allowing for a seamless user experience.</p>
+        
+    </div>
+
+      <div class="flex justify-around  p-5">
+      <span class="text-amber-500">#JS</span>
+      <span class="text-red-800">#JQyuery</span>
+      <span class="text-indigo-500">#BS</span>
+    </div>
+</div>
+<div class="order-4 w-full md:w-[48%] lg:w-[30%] bg-slate-800 text-white border border-gray-500 shadow-md shadow-slate-300 hover:shadow-lg rounded-lg hover:shadow-slate-300 transition duration-700 dark:bg-gray-800 dark:border-gray-700">
+    <a href=" https://elhammohsen.github.io/Quote-App/">
+        <img class="rounded-t-lg  " src="images/Quote App.png" alt="" />
+    </a>
+    <div class="p-5">
+      <div class="flex justify-between">
+        <a href="https://elhammohsen.github.io/Quote-App/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-gray-900">Quote App</h5>
+        </a>
+        <a href="https://github.com/elhammohsen/Quote-App" class="">
+            <i class="fa-brands fa-github mx-3 text-3xl rounded-full hover:text-gray-400 hover:cursor-pointer"></i>
+             
+        </a>
+      </div>
+        
+        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">Quote App is a simple web app that displays random quotes to inspire and motivate. With each click, users get a new quote, making it a fun and uplifting experience.</p>
+        
+    </div>
+
+     <div class="flex justify-around  p-5">
+      <span class="text-amber-500">#JS</span>
+      <span class="text-blue-700">#Api</span>
+      <span class="text-indigo-500">#BS</span>
+    </div>
+</div>
+<div class="order-5 w-full md:w-[48%] lg:w-[30%] bg-slate-800 text-white border border-gray-500 shadow-md shadow-slate-300 hover:shadow-lg rounded-lg hover:shadow-slate-300 transition duration-700 dark:bg-gray-800 dark:border-gray-700">
+    <a href=" https://elhammohsen.github.io/DevFolio/">
+        <img class="rounded-t-lg  " src="images/DevFolio.png" alt="" />
+    </a>
+    <div class="p-5">
+      <div class="flex justify-between mb-5 mt-2">
+        <a href="https://elhammohsen.github.io/DevFolio/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-gray-900">DevFolio</h5>
+        </a>
+        <a href="https://github.com/elhammohsen/DevFolio" class="">
+            <i class="fa-brands fa-github mx-3 text-3xl rounded-full hover:text-gray-400 hover:cursor-pointer"></i>
+             
+        </a>
+      </div>
+        
+        <p class="mb-3 font-normal text-gray-400 dark:text-gray-400">DevFolio is a clean and responsive personal portfolio website designed to showcase your skills, projects, and professional profile. It's perfect for developers looking to make a strong first impression online.</p>
+        
+    </div>
+
+       <div class="flex justify-around  p-5">
+      
+      <span class="text-indigo-500">#BS</span>
+    </div>
+</div>
+</div>
+
+  </div>
+</section>
+
+
+<section id="contact" class="contact m-10 p-10 ">
+  <h2 class="text-white font-bold text-5xl text-center p-10 m-10 ">Contact Info.</h2>
+  <div class="lg:flex  my-5 justify-between">
+
+<div class="w-full lg:w-1/2">
+  
+<form class="mx-auto p-5  w-full">
+  <div class="mb-3">
+    <label for="name" class="block mb-2 text-sm font-medium text-white dark:text-white">Name</label>
+  <input type="text" id="name" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name">
+
+  </div>
+  <label for="email" class="block mb-2 text-sm font-medium text-white dark:text-white">Your Email</label>
+  <div class="relative">
+    <div class="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+      <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+        <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+        <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+      </svg>
+    </div>
+    <input type="text" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@gmail.com">
+  </div>
+
+    <div class="my-3">
+    <label for="phone" class="block mb-2 text-sm font-medium text-white dark:text-white">Phone</label>
+  <input type="tel" id="phone" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="phone">
+
+  </div>
+
+    <div class="my-3">
+   <label for="message" class="block mb-2 text-sm font-medium text-white dark:text-white">Your message</label>
+  <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
+
+  </div>
+
+<div>
+   <button onclick="sendMessage()" class="text-white bg-purple-700  hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-xl my-4 px-6 py-3 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Send message</button>
+    
+</div>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "jxp4xTVejoZJCc29Y",
+      });
+   })();
+</script>
+</form>
+
+</div>
+
+<div class="w-full lg:w-1/3 text-white pt-12 mx-auto justify-center ">
+<h3 class="text-3xl my-3">direct contact</h3>
+<div class="flex my-2 ">
+  <i class="fa-solid text-xl fa-envelope mx-2 "></i>
+  <p class="text-xl">elhammohsen67@gmail.com</p>
+</div>
+<div class="flex my-2">
+ <i class="fa-solid  text-xl fa-phone mx-2"></i>
+  <p class="text-xl">01096021761</p>
+</div>
+<p class="text-3xl">Social Media</p>
+<div class="flex my-2 justify-around p-2 px-4">
+  <a href="https://github.com/elhammohsen"><i class="fa-brands fa-github mx-3 text-2xl hover:text-gray-300 hover:cursor-pointer"></i></a>
+  <a href="https://www.linkedin.com/in/elham-mohsen-79014a257"><i class="fa-brands fa-linkedin mx-3 text-2xl hover:text-sky-500 hover:cursor-pointer"></i></a>
+  <a href="https://www.facebook.com/share/16WH1vvRNS/?mibextid=wwXIfr"><i class="fa-brands fa-facebook mx-3 text-2xl hover:text-sky-700 hover:cursor-pointer"></i></a>
+  <a href="https://www.instagram.com/elhammohsen9187?igsh=dDNsNGdhaXFzZno2&utm_source=qr"><i class="fa-brands fa-instagram mx-3 text-2xl hover:text-rose-900 hover:cursor-pointer"></i></a>
+
+
+
+
+</div>
+</div>
+
+  </div>
+</section>
+<script src="./js/index.js"></script>
+</body>
+</html>
